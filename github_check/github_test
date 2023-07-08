@@ -14,9 +14,9 @@ result = [[0,0,0],
 		[0,0,0],
 		[0,0,0]]
 
-# iterate through rows
+# Iterate through the rows
 for i in range(len(X)):
-# iterate through columns
+# Iterate through the columns
 	for j in range(len(X[0])):
 		result[i][j] = X[i][j] + Y[i][j]
 
